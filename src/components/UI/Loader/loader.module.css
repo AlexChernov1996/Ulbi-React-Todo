@@ -1,0 +1,15 @@
+.loader{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:3px dashed cadetblue;
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg) scale(0.5);
+    }
+    to{
+        transform: rotate(360deg) scale(1.5);
+    }
+}
