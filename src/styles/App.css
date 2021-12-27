@@ -36,4 +36,16 @@
     opacity: 0;
     transition: opacity 500ms ease-in;
 }
-
+.page__wrapper{
+    margin-top: 30px;
+    display: flex;
+}
+.page{
+    padding: 10px;
+    border: 1px solid cadetblue;
+    cursor: pointer;
+}
+.page__active{
+    border: 1px solid orange;
+    font-weight: bold;
+}
